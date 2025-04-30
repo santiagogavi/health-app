@@ -6,9 +6,9 @@ import RegisterScreen from "./RegisterScreen";
 
 export default function LoginScreen() {
   //const [email, setEmail]= useState(); 
-  const navigation = useNavigation();
-  const [ShowRegister, setShowRegister] = useState(false);
 
+  const [ShowRegister, setShowRegister] = useState(false);
+  const navigation = useNavigation();
   useEffect(() => {
     navigation.setOptions({ headerShown: false });
   }, [navigation]);
